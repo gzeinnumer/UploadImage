@@ -38,8 +38,7 @@
          
          //file url to store in the database 
          //$file_url = $upload_url . getFileName() . '.' . $extension;
-         $file_url = getFileName() . '.' . $extension;
-         //$file_url = $_FILES['image']['name'];
+         $file_url = $_FILES['image']['name'];
 			
 			
          
